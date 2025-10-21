@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 //                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 //                    CalculatorScreen(modifier = Modifier.padding(innerPadding), state = state)
 //                }
-                AppNavigation()
+                AppNavigation(applicationContext)
             }
         }
     }
